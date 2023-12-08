@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- -------- navbar part ----------  -->
+    <marquee style="color:pink" class="nameff"><span>Add Money</span> 50rs extra 10rupess.</marquee>
+    <div class="navbar">
+        <nav>
+            <i class="fa-regular fa-envelope"></i>
+        </nav>
+        <ul>
+            <li class="money">Balance 0</li>
+            <li><button class="head-btn">Add Money</button></li>
+        </ul>
+       </div>
+<!-- -------- money section ---------- -->
+</div>
+<div class="rules-container">
+ <div style="background-color: white">UPI PAYMENTS AVAILBLES</div>
+ <div style="background-color: white">Price 3Rs per Gmail</div>
+ <div style="background-color: white">PASTE  UTR ID OR TRANSITION ID .....</div> 
+</div> 
+
+<div>
+    <img src="download.jpg" alt="">
+    <input type="text" placeholder="ENTER UTR NO.." >
+    
+    <div  class="pamentssuc">
+        
+    </div>
+    <button class="head-btn pro" onclick="functionddd()">Submit</button>
+    
+</div>
+<div class="rules-container">
+    <div style="background-color: white"> Copy ID  : snabk@ybl</div>
+    <div style="background-color: white">Pay Money : snabk@ybl</div>
+
+   </div> 
+   
+
+<div>
+    <img src="utr.jpg" class="imgcontainer">
+     
+    
+</div>
+
+
+ <!-- ---------- footer section ---------- -->
+ <footer>
+    <div class="footer-section">
+       <p>Copyright</p>
+       <p>@2023</p>
+    </div>
+  </footer> 
+
+  <script>
+   
+
+    const functionddd = () =>{
+   const inputvalue = document.querySelector("input").value;
+   //console.log(inputvalue);
+   if(inputvalue){
+    const dataddd = document.querySelector(".pamentssuc");
+   console.log(dataddd);
+   const datddd = document.createElement("div").innerText= "Succefully Add , WAIT Check UTR NUMBER RIGHT OR WRONG ";
+   dataddd.append(datddd);
+   
+   }else{
+    const dataddd = document.querySelector(".pamentssuc");
+   console.log(dataddd);
+   const datddd = document.createElement("div").innerText= "Enter the UTR Number";
+   dataddd.append(datddd);
+   
+   }
+    }
+
+  </script>
+
+</body>
+ </html>
